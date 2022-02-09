@@ -22,7 +22,8 @@ else
 fi
 
 # Now lets push to github changes here
-git commit -am "chore(build): building new image from cypress/browsers:$1"
+git add .
+git commit -m "chore(build): building new image from cypress/browsers:$1"
 git tag -f $1
 git push -f origin $1
 git push
