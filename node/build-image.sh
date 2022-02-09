@@ -21,6 +21,9 @@ else
   docker build -t clearc2/browsers:$1 --push .
 fi
 
+# Return to the node directory
+cd ..
+
 # Now lets push to github changes here
 git add .
 git commit -m "chore(build): building new image from cypress/browsers:$1"
