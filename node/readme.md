@@ -3,7 +3,7 @@ To build new cypress browser images that work on the internal Clear C2 Jenkins s
 Pick a base image tag from [cypres](https://hub.docker.com/r/cypress/browsers/tags) to build a new Clear C2 version.
 
 Pass the tag, the part of the name following `browsers:`, to the script `build-image.sh "node16.13.0-chrome-95-ff94"`.  
-Then work on something else for a few minutes while the gigantice image is pulled.
+Then work on something else for a few minutes while the gigantic image is pulled.
 
 If you encounter errors be sure you have one of the latest versions of docker desktop for mac installed and keep reading.
 
