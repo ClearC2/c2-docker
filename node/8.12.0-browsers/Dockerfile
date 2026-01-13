@@ -1,4 +1,4 @@
-FROM circleci/node:8.12.0-stretch-browsers
+FROM circleci/node:8.17.0-stretch-browsers
 
 # cypress support
 ENV TERM: xterm
